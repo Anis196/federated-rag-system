@@ -33,26 +33,28 @@ federated-rag-system/
 │   ├── main.py                  # Entry point
 │   ├── requirements.txt          # Python dependencies
 │   ├── rag_storage/             # Persistent vector embeddings
-│   ├── docs/                    # Documentation
+│   ├── docs/                    # Component documentation
 │   └── archived_*.py            # Legacy code files
 │
 ├── backend/                     # Spring Boot REST gateway
 │   ├── pom.xml                  # Maven configuration
 │   ├── src/                     # Java source code
 │   ├── target/                  # Build output
-│   ├── docs/                    # Documentation
-│   └── README.md
+│   └── docs/                    # Component documentation
 │
 ├── frontend/                    # React TypeScript frontend
 │   ├── src/                     # React source code
 │   ├── public/                  # Static assets
 │   ├── package.json             # NPM dependencies
 │   ├── vite.config.ts           # Vite build config
-│   ├── docs/                    # Documentation
-│   └── README.md
+│   └── docs/                    # Component documentation
 │
 ├── .gitignore                   # Git ignore rules
-└── README.md                    # This file
+├── README.md                    # Project overview
+├── SETUP_LOCAL.md               # Local development setup
+├── CONTRIBUTING.md              # Contribution guidelines
+├── LICENSE                      # MIT License
+└── SETUP_LOCAL.md              # Local setup guide (not pushed)
 ```
 
 ## 🚀 Quick Start
@@ -284,11 +286,49 @@ npm run build
 
 ## 🤝 Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- How to fork and set up development environment
+- Branch naming conventions
+- Commit message standards
+- Pull request process
+- Code style guidelines
+- Testing requirements
+- Areas for contribution
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
+
+**MIT License Summary:**
+- ✅ Use for commercial purposes
+- ✅ Modify the code
+- ✅ Distribute the software
+- ⚠️ Must include license and copyright notice
+- ❌ No warranty provided
+
+---
+
+## � License
+
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
+
+**MIT License Summary:**
+- ✅ Use for commercial purposes
+- ✅ Modify the code
+- ✅ Distribute the software
+- ⚠️ Must include license and copyright notice
+- ❌ No warranty provided
+
+---
 
 ## 📞 Support
 
-For issues, questions, or contributions, please open an issue on GitHub.
+For issues, questions, or contributions, please:
+- **Report bugs:** [GitHub Issues](https://github.com/Anis196/federated-rag-system/issues)
+- **Contribute:** See [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Documentation:** Check component `docs/` folders
 
 ---
 
