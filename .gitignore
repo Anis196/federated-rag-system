@@ -1,0 +1,102 @@
+# Python Virtual Environments
+.venv/
+venv/
+chromadb/
+fastapi/
+install/
+llama-index/
+ollama/
+openpyxl/
+pandas/
+uvicorn/
+xlrdpython/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+
+# RAG Storage & Data
+rag_storage/
+*.db
+chroma.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Java/Spring Boot
+target/
+build-output.txt
+.classpath
+.project
+.settings/
+.sts4-cache/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Node/React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.next/
+out/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+bun.lockb
+pnpm-lock.yaml
+node/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Local setup & configuration files (not pushed)
+SETUP_LOCAL.md
+.env
+.env.local
+.env.*.local
+.DS_Store.local
