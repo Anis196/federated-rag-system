@@ -6,7 +6,7 @@ FastAPI-based Retrieval-Augmented Generation service that ingests documents, gen
 ## Core Components
 
 ### 1. **Data Ingestion Pipeline**
-- **Location:** `main.py` - `extract_text_from_file()`, `extract_text_from_jsonl()`
+- **Location:** `python-rag-service/main.py` - `extract_text_from_file()`, `extract_text_from_jsonl()`
 - **Supported Formats:** CSV, XLS, XLSX, JSONL, TXT
 - **Function:** Automatically detects and indexes new files from `DATA_DIR`
 - **Frequency:** Polls every `DATA_POLL_INTERVAL` seconds (default: 5s)
@@ -49,9 +49,9 @@ JSON Response → Spring Boot → Frontend
 
 ## Key Files
 
-- **main.py** - Entry point, contains all core logic
-- **rag_storage/** - Persistent vector index and embeddings
-- **requirements.txt** - Python dependencies
+- **python-rag-service/main.py** - Entry point, contains all core logic
+- **python-rag-service/rag_storage/** - Persistent vector index and embeddings
+- **python-rag-service/requirements.txt** - Python dependencies
 
 ## Configuration
 

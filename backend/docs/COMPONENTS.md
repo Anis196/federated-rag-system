@@ -3,7 +3,7 @@
 ## Components Breakdown
 
 ### 1. RagChatController
-**File:** `src/main/java/com/example/springbootragchat/api/RagChatController.java`
+**File:** `backend/src/main/java/com/example/springbootragchat/api/RagChatController.java`
 
 **Responsibility:** HTTP endpoint handling and request routing
 
@@ -31,7 +31,7 @@
 ---
 
 ### 2. Spring Boot Application
-**File:** `src/main/java/com/example/springbootragchat/SpringbootRagChatApplication.java`
+**File:** `backend/src/main/java/com/example/springbootragchat/SpringbootRagChatApplication.java`
 
 **Responsibility:** Application initialization and configuration
 

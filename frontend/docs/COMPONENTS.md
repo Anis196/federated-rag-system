@@ -3,7 +3,7 @@
 ## Components Breakdown
 
 ### 1. App Component
-**File:** `src/App.tsx`
+**File:** `frontend/src/App.tsx`
 
 **Responsibility:** Root component orchestrating the entire application
 
@@ -81,7 +81,7 @@ const RAG_ENDPOINT = `${API_URL}/api/rag/chat`;
 ---
 
 ### 4. Type Definitions
-**File:** `src/types/chat.ts`
+**File:** `frontend/src/types/chat.ts`
 
 **Content:**
 ```typescript
@@ -109,7 +109,7 @@ interface ChatResponse {
 ---
 
 ### 5. Custom Hooks
-**Directory:** `src/hooks/`
+**Directory:** `frontend/src/hooks/`
 
 **Hook: `useChatMessages.ts`**
 - Manages chat state (messages array)
@@ -137,7 +137,7 @@ const isMobile = useMobile();
 ---
 
 ### 6. Utility Functions
-**File:** `src/lib/utils.ts`
+**File:** `frontend/src/lib/utils.ts`
 
 **Common Utilities:**
 - `formatTimestamp(ts: number): string` - Format message timestamps
@@ -151,7 +151,7 @@ const isMobile = useMobile();
 ---
 
 ### 7. Navigation Component
-**File:** `src/components/NavLink.tsx`
+**File:** `frontend/src/components/NavLink.tsx`
 
 **Responsibility:** Navigation links between pages
 
@@ -163,7 +163,7 @@ const isMobile = useMobile();
 ---
 
 ### 8. UI Components (shadcn/ui)
-**Directory:** `src/components/ui/`
+**Directory:** `frontend/src/components/ui/`
 
 **Pre-built Components:**
 - `button.tsx` - Styled button component
@@ -197,8 +197,8 @@ export function ChatInput() {
 ---
 
 ### 9. Page Components
-**File:** `src/pages/Index.tsx` - Main chat page
-**File:** `src/pages/NotFound.tsx` - 404 page
+**File:** `frontend/src/pages/Index.tsx` - Main chat page
+**File:** `frontend/src/pages/NotFound.tsx` - 404 page
 
 ---
 

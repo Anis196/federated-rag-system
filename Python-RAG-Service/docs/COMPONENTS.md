@@ -3,7 +3,7 @@
 ## Components Breakdown
 
 ### 1. Data Extraction Module
-**File:** `main.py`
+**File:** `python-rag-service/main.py`
 
 **Functions:**
 - `extract_text_from_file(path)` - Extracts text from CSV, XLS, XLSX, TXT
@@ -20,7 +20,7 @@
 ---
 
 ### 2. Document Ingestion Engine
-**File:** `main.py`
+**File:** `python-rag-service/main.py`
 
 **Key Variables:**
 - `documents` - List of indexed documents

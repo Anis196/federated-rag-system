@@ -34,9 +34,9 @@ When a file is detected:
 Choose your format (CSV, XLSX, JSONL, or TXT)
 
 ### Step 2: Place Files
-Copy files to the `Python-RAG-Service/` root directory:
+Copy files to the `python-rag-service/` root directory:
 ```
-Python-RAG-Service/
+python-rag-service/
 ├── main.py
 ├── requirements.txt
 ├── your_data.csv          ← Add here

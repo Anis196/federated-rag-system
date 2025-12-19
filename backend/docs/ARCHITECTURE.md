@@ -6,7 +6,7 @@ Spring Boot REST API gateway that connects React frontend to Python RAG service.
 ## Core Components
 
 ### 1. **Spring Boot Application**
-- **Main Class:** `SpringbootRagChatApplication.java`
+- **Main Class:** `backend/src/main/java/com/example/springbootragchat/SpringbootRagChatApplication.java`
 - **Port:** 8080
 - **Framework:** Spring Boot 3.x
 - **Purpose:** Serves frontend + Acts as API gateway to Python service
