@@ -51,10 +51,8 @@ federated-rag-system/
 │
 ├── .gitignore                   # Git ignore rules
 ├── README.md                    # Project overview
-├── SETUP_LOCAL.md               # Local development setup
 ├── CONTRIBUTING.md              # Contribution guidelines
 ├── LICENSE                      # MIT License
-└── SETUP_LOCAL.md              # Local setup guide (not pushed)
 ```
 
 ## 🚀 Quick Start
