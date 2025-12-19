@@ -331,3 +331,7 @@ For issues, questions, or contributions, please:
 ---
 
 **Ready to use?** Start with the [Quick Start](#-quick-start) section above!
+
+---
+Any query or just want to talk about the project?
+Then reach me out : [shaikhanis2004@gmail.com](mailto:shaikhanis2004@gmail.com)
